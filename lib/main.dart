@@ -1,6 +1,5 @@
-  import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart';
-
+  
+import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -10,14 +9,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     return MaterialApp(
-      title: 'Welcome to Flutter',
-      home: Scaffold(
+      title: 'tuende',
+        home: Scaffold(
         appBar: AppBar(
-          title: const Text('Welcome to Flutter'),
+          title: const Text('tuende'),
         ),
-        body: const Center(
-          child: Text('Hello World'),
+        body: const Center( 
         ),
       ),
     );
