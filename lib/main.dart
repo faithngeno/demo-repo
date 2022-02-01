@@ -1,5 +1,8 @@
-  
-import 'package:flutter/material.dart';
+  import 'package:flutter/material.dart';
+
+String getfulFulName(String firstName, String lastName) {
+  return 'firstName';  
+}
 void main() {
   runApp(const MyApp());
 }
@@ -9,7 +12,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
+    print(getFullName('Foo', 'Bar'));
     return MaterialApp(
       title: 'tuende',
         home: Scaffold(
